@@ -31,13 +31,18 @@
     "ace-builds": {
       "main": [
         "src/ace.js",
-        "src/ext-modelist.js"
+        "src/ext-modelist.js",
+        "src/mode-json.js",
+        "src/mode-javascript.js",
+        "src/mode-html.js",
+        "src/mode-css.js",
+        "src/ext-searchbox.js"
       ]
     },
     "font-awesome": {
       "main": [
         "css/font-awesome.css",
-        "font/*"
+        "fonts/*"
       ]
     },
     "minimatch": {
