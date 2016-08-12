@@ -141,7 +141,7 @@
     function htmlToDom(content) {
       let doc = document.implementation.createHTMLDocument();
       doc.open();
-      doc.write(content);
+      doc.write('<base href="/">\n' + content);
       doc.close();
       return doc;
     }
