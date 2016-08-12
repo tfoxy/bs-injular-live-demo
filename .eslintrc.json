@@ -1,0 +1,28 @@
+{
+  "extends": "eslint:recommended",
+  "plugins": ["angular"],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jasmine": true,
+    "mocha": true
+  },
+  "globals": {
+    "angular": true,
+    "module": true,
+    "inject": true,
+    "assert": true,
+    "sinon": true
+  },
+  "rules": {
+    "block-scoped-var": "error",
+    "comma-dangle": 0,
+    "eqeqeq": ["error", "smart"],
+    "no-implicit-globals": "error",
+    "semi": ["error", "always"]
+  }
+}
